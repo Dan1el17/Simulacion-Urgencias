@@ -142,17 +142,6 @@ TOTAL DE GRAFICAS GENERADAS: 9 (carpeta output/)
 ```
 
 ### Archivos generados en `output/`
-
-| Archivo | Contenido |
-| :--- | :--- |
-| `grafica_utilizacion_{saturado\|equilibrado\|holgado}.png` | Utilización ($\rho$) por etapa en cada escenario. |
-| `grafica_espera_vs_medicos_{...}.png` | Espera en cola (Wq) por etapa al aumentar médicos, con el punto del escenario destacado. |
-| `grafica_espera_gravedad_{...}.png` | Espera por nivel de gravedad: FIFO vs. prioridad (con IC95%). |
-| `tabla_analitico_detalle.csv` | Métricas completas por etapa de cada configuración. |
-| `tabla_analitico_resumen.csv` | Resumen del barrido: estabilidad, cuello de botella, W, L. |
-| `tabla_validacion.csv` | Analítico vs. simulación: diff %, IC95%, veredicto. |
-| `tabla_prioridad.csv` | Comparación FIFO vs. prioridad por gravedad. |
-
 ---
 
 ## 📂 Estructura del proyecto
